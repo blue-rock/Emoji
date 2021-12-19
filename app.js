@@ -11,3 +11,14 @@ function eyeball() {
         eye.style.transform  = "rotate("+ rot +"deg)"
     })
 }
+var div4 = document.querySelector('.face') 
+var audio = document.querySelector('#audio4')
+autoplay="true"
+muted="muted"
+div4.addEventListener("mouseenter", function(){
+    audio.play()
+    });
+div4.addEventListener("mouseout", function(){
+    audio.pause()
+    });
+                

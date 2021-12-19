@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #5d3800;
+  background: #000000;
 }
 .face {
   position: relative;
@@ -26,7 +26,7 @@ body {
   top: 180px;
   width: 150px;
   height: 70px;
-  background: #b57700;
+  background: #000000;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 70px;
   transition: 0.5s;
@@ -35,7 +35,7 @@ body {
   top: 210px;
   width: 150px;
   height: 20px;
-  background: #b57700;
+  background: #000000;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
